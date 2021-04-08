@@ -12,7 +12,10 @@ Every point contains 6 measurements along with a Unix timestamp. Those measureme
 - wind direction (see below for format),
 - battery voltage in V.
 
-It is presented in two formats : JSON and CSV. The JSON structure is the following :
+The data is available in two formats : JSON and CSV.
+
+### JSON
+The JSON structure is the following :
 - `units` : dictionary of measurements name and units,
 - `wind_direction_dic` : dictionary of wind direction value and real direction,
 - `values` : list of data point
@@ -26,6 +29,11 @@ It is presented in two formats : JSON and CSV. The JSON structure is the followi
   	- `battery_voltage` : float,  	
   - ]
   - ...
+
+### CSV
+There are 2 CSV files :
+- `data_comma_period.csv` : values are comma-separated, and periods (`.`) are used as decimal separator,
+- `data_semicolon_comma.csv` : values are semicolon-separated, and commas (`,`) are used as decimal separator.
 
 On the 8<sup>th</sup> of April, the set contains 2972 data points.
 
