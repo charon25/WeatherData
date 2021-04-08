@@ -27,5 +27,7 @@ It is presented in two formats : JSON and CSV. The JSON structure is the followi
   - ]
   - ...
 
+On the 8<sup>th</sup> of April, the set contains 2972 data points.
+
 ## Usage
 You are free to use this data to do whatever you want, as long as you credit this repo. No guarantee is provided about the exactitude of the data.
