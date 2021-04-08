@@ -1,4 +1,4 @@
-timestamp;temperature (°C);humidity (%);pressure (hPa);wind_speed (km/h);wind_direction;battery_voltage (V)
+timestamp;temperature (*C);humidity (%);pressure (hPa);wind_speed (km/h);wind_direction;battery_voltage (V)
 1613977312;14,38;31;1001,28;0,00;3,0;12,6
 1613977911;12,88;41;998,05;2,70;6,0;12,6
 1613978511;11,56;42;996,11;0,00;5,0;12,6
