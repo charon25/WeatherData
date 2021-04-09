@@ -37,5 +37,27 @@ There are 2 CSV files :
 
 On the 8<sup>th</sup> of April, the set contains 2972 data points.
 
+### Wind direction
+The wind direction is an integer between 0 and 16 (inclusive), each one indicating a specific direction.
+| Integer | Direction |
+| ------- | --------- |
+| 0 | West |
+| 1 | West-North-West |
+| 2 | North-West |
+| 3 | North-North-West |
+| 4 | North |
+| 5 | North-North-East |
+| 6 | North-East |
+| 7 | East-North-East |
+| 8 | East |
+| 9 | East-South-East |
+| 10 | South-East |
+| 11 | South-South-East |
+| 12 | South |
+| 13 | South-South-West |
+| 14 | South-West |
+| 15 | West-South-West |
+| 16 | Invalid/Error |
+
 ## Usage
 You are free to use this data to do whatever you want, as long as you credit this repo. No guarantee is provided about the exactitude of the data.
