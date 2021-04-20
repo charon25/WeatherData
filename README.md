@@ -4,13 +4,13 @@ This repo contains weather data collected by a weather station built located in 
 ## Data
 The data was (and still is) collected every 10 minutes between approximately 8 am and 6 pm, sometimes earlier or later. It started on February 22<sup>th</sup>.
 
-Every point contains 6 measurements along with a Unix timestamp. Those measurements are :
-- temperature in °C,
-- humidity in %,
-- air pressure in hPa,
-- wind speed in km/h,
-- wind direction (see below for format),
-- battery voltage in V.
+Every point contains 6 measurements along with a Unix timestamp. Those measurements (and their accuracies) are :
+- temperature in °C (± 0.5 °C),
+- humidity in % (± 5 %),
+- air pressure in hPa (± 0.12 hPa),
+- wind speed in km/h (unknow accuracy),
+- wind direction (see below for format) (unknown accuracy),
+- battery voltage in V (± 0.1 V).
 
 The data is available in two formats : JSON and CSV.
 
