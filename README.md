@@ -35,7 +35,7 @@ There are 2 CSV files :
 - `data_comma_period.csv` : values are comma-separated, and periods (`.`) are used as decimal separator,
 - `data_semicolon_comma.csv` : values are semicolon-separated, and commas (`,`) are used as decimal separator.
 
-On the 8<sup>th</sup> of April, the set contains 2972 data points.
+On the 26<sup>th</sup> of June, the set contains 9914 data points.
 
 ### Wind direction
 The wind direction is an integer between 0 and 16 (inclusive), each one indicating a specific direction.
