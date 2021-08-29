@@ -2,7 +2,7 @@
 This repo contains weather data collected by a weather station built located in Strasbourg, France by myself and a friend for a class project.
 
 ## Data
-The data was (and still is) collected every 10 minutes between approximately 8 am and 6 pm, sometimes earlier or later. It started on February 22<sup>th</sup>.
+The data was (and still is) collected every 10 minutes between approximately 8 am and 6 pm for the first half and between 1 am and 11 pm for the second half (sometimes earlier or later). It started on February 22<sup>th</sup>.
 
 Every point contains 6 measurements along with a Unix timestamp. Those measurements (and their accuracies) are :
 - temperature in °C (± 0.5 °C),
@@ -35,7 +35,7 @@ There are 2 CSV files :
 - `data_comma_period.csv` : values are comma-separated, and periods (`.`) are used as decimal separator,
 - `data_semicolon_comma.csv` : values are semicolon-separated, and commas (`,`) are used as decimal separator.
 
-On the 26<sup>th</sup> of June, the set contains 9914 data points.
+On the 29<sup>th</sup> of August, the set contains 17473 data points.
 
 ### Wind direction
 The wind direction is an integer between 0 and 16 (inclusive), each one indicating a specific direction.
